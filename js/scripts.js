@@ -1,7 +1,10 @@
 $(document).ready(function(){
-$("form").submit(event);
-event.preventDefault();
-var addressEntry = $("input#address").val();
-alert("good job");
-console.log(addressEntry);
+  $("form#hold").submit(function(event){
+    event.preventDefault();
+    function contact(first,last) {
+      this.firstName = first;
+      this.lastName = last;
+    }
+var drew = contact()
+  });
 });

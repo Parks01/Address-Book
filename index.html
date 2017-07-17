@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link href="css/styles.css" rel="stylesheet" type="text/css">
-<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-<script src="js/scripts.js"></script>
-  <title>Ping Pong</title>
+    <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Places</title>
   </head>
   <body>
-  <div class="container">
-  <h1>Address Book</h1>
-  <form>
-    <label id="address">Address
-    </label>
-    <label id="state">State
-      <ul>
-        <option>Washington</option>
-        <option>Oregon</option>
-        <option>Montana</option>
-    </label>
-  </form>
+    <div class="container">
+      <h1>Address Book</h1>
+  <form id="hold">
+<div class="form-group">
+  <label for="state">STATE</label>
+  <input type="text" class="form-control" id="firstName" placeholder="First Name">
+</div class="row">
+  <input type="text" class="form-control" id="lastName" placeholder="Last Name">
   </div>
-  </body>
+  <div class="form-group">
+  <label for="state">Address</label>
+  <input type="text" class="form-control" id="firstName" placeholder="First Name">
+  <button type="submit" class="btn btn-success">Submit</button>
+</div>
+</form>
+</body>
+</div>
 </html>
